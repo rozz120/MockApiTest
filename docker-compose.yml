@@ -1,0 +1,15 @@
+version: '3.4'
+
+services:
+  mockapitest:
+    image: ${DOCKER_REGISTRY-}mockapitest
+    build:
+      context: .
+      dockerfile: MockApiTest/Dockerfile
+
+  mockoontests:
+    image: ${DOCKER_REGISTRY-}mockoontests
+    build:
+      context: .
+      dockerfile: MockoonTests/Dockerfile
+

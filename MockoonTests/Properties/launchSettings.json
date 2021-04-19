@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "MockoonTests": {
+      "commandName": "Project"
+    },
+    "Docker": {
+      "commandName": "Docker"
+    }
+  }
+}
